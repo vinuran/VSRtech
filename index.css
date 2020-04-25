@@ -1,8 +1,21 @@
+$baseColor: #398B93;
+$borderRadius: 10px;
+$imageBig: 100px;
+$imageSmall: 60px;
+$padding: 10px;
+
 body{
 background-image: url(bcg.png);
 background-position: center;
 background-size: cover;
 }
+img {
+      border: 3px solid;
+      border-color: lighten($baseColor, 50%);
+      height: $imageBig;
+      margin: 0.5rem 0;
+      width: $imageBig;
+   }
 h1{
 	color: rgb(255,141,0);
 	background-color: rgba(191,226,255,0.25);
