@@ -1,5 +1,5 @@
 body{
-background-image:url(bcg.png);
+background-image:url(bcg-min.png);
 background-position: center;
 background-size: cover;
 }
@@ -20,6 +20,7 @@ table {
 }
 th{
 	color: black;
+	border-top: none;
 }
 tr,td{
 	background-color: rgba(0,142,238,0.2);
