@@ -26,7 +26,6 @@ h2{
 }
 h3{
 	color: white;
-	background-color: rgba(191,226,255,0.25);
 }
 th{
 	color: black;
@@ -76,3 +75,20 @@ form.signup{
 	background-color: rgba(0,0,0,0.5);
 	border-radius: 5px;
 }
+tr {
+      background-color: white !important;
+      border: 1px solid lighten($baseColor, 20%);
+      border-radius: $borderRadius;
+      box-shadow: 2px 2px 0 rgba(0,0,0,0.1);
+      margin: 0.5rem 0;
+      padding: 0;
+   }
+@media screen and (max-width: 500px) {
+   .header {
+      background-color: transparent;
+      color: lighten($baseColor, 60%);
+      font-size: 2em;
+      font-weight: 700;
+      padding: 0;
+      text-shadow: 2px 2px 0 rgba(0,0,0,0.1);
+   }
