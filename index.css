@@ -32,11 +32,11 @@ div.header{
 a{
 	text-decoration-line: underline;
 	color: darkorange;
+	text-decoration: none;
 }
 li{
 	display: block;
 	padding-right: 10px;
-	text-decoration: none;
 }
 div.logsign{
 	float: right;
