@@ -4,14 +4,14 @@ background-position: center;
 background-size: cover;
 }
 h1{
-	color: #FF9933;
+	color: gold;
 }
-h2{
+/* h2{
 	color: #138808;
 }
 h3{
 	color: white;
-}
+} */
 table {
     border-collapse:separate;
     border:solid black 1px;
@@ -36,7 +36,7 @@ div.header{
 }
 li,a{
 	display: block;
-	color:white;
+/* 	color:white; */
 	text-decoration: none;
 }
 a{
