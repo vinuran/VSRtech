@@ -1,11 +1,5 @@
-$baseColor: #398B93;
-$borderRadius: 10px;
-$imageBig: 100px;
-$imageSmall: 60px;
-$padding: 10px;
-
 body{
-background-color: black;
+background-image:url(bcg.png);
 background-position: center;
 background-size: cover;
 }
@@ -30,17 +24,19 @@ div.header{
 	background-size: cover;border: 2px solid gold;
 	float: left;
 }
-li,a{
+/* li,a{
 	display: block;
 	color:white;
 	text-decoration: none;
-}
+} */
 a{
 	text-decoration-line: underline;
 	color: darkorange;
 }
 li{
+	display: block;
 	padding-right: 10px;
+	text-decoration: none;
 }
 div.logsign{
 	float: right;
