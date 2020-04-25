@@ -5,17 +5,10 @@ $imageSmall: 60px;
 $padding: 10px;
 
 body{
-background-image: url(bcg.png);
+background-color: black;
 background-position: center;
 background-size: cover;
 }
-img {
-      border: 3px solid;
-      border-color: lighten($baseColor, 50%);
-      height: $imageSmall;
-      margin: 0.5rem 0;
-      width: $imageSmall;
-   }
 h1{
 	color: rgb(255,141,0);
 }
