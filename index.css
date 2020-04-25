@@ -34,14 +34,14 @@ div.header{
 	background-size: cover;border: 2px solid gold;
 	float: left;
 }
-/* li,a{
+li,a{
 	display: block;
 	color:white;
 	text-decoration: none;
-} */
+}
 a{
 	text-decoration-line: underline;
-	color: white;
+	color: darkorange;
 	text-decoration: none;
 }
 li{
