@@ -1,4 +1,4 @@
-/* $baseColor: #398B93;
+$baseColor: #398B93;
 $borderRadius: 10px;
 $imageBig: 100px;
 $imageSmall: 60px;
@@ -12,9 +12,9 @@ background-size: cover;
 img {
       border: 3px solid;
       border-color: lighten($baseColor, 50%);
-      height: $imageBig;
+      height: $imageSmall;
       margin: 0.5rem 0;
-      width: $imageBig;
+      width: $imageSmall;
    }
 h1{
 	color: rgb(255,141,0);
@@ -92,9 +92,8 @@ tr {
       padding: 0;
       text-shadow: 2px 2px 0 rgba(0,0,0,0.1);
    }
- */
 
-$baseColor: #398B93;
+/* $baseColor: #398B93;
 $borderRadius: 10px;
 $imageBig: 100px;
 $imageSmall: 60px;
@@ -273,4 +272,4 @@ table {
       box-shadow: none;
       overflow: visible;
    }
-}
+} */
