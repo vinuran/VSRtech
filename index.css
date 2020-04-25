@@ -5,12 +5,15 @@ background-size: cover;
 }
 h1{
 	color: rgb(255,141,0);
+	background-color: rgba(191,226,255,0.25);
 }
 h2{
 	color: green;
+	background-color: rgba(191,226,255,0.25);
 }
 h3{
 	color: white;
+	background-color: rgba(191,226,255,0.25);
 }
 th{
 	color: black;
